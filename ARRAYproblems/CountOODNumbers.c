@@ -11,7 +11,7 @@ int countodd(int low,int high)
     int c;
     //for(int i=low;i<=high;i++)
    // {
-   //     if(i%2!=0)
+   ///     if(i%2!=0)
     //    {
    //         c++;
     //   }
