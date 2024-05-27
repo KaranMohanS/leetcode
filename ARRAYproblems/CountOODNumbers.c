@@ -7,14 +7,19 @@ int main()
     printf("ODD Number Count--->%d",c);
 }
 int countodd(int low,int high)
-{
+{                             // method 1;
     int c;
-    for(int i=low;i<=high;i++)
+    //for(int i=low;i<=high;i++)
+   // {
+   //     if(i%2!=0)
+    //    {
+   //         c++;
+    //   }
+   // }
+                           // method 2
+    if(low%2!=0 || high%2!=0)
     {
-        if(i%2!=0)
-        {
-            c++;
-        }
+        c++;
     }
-    return c;
+    return (high-low)/2+c;
 }
